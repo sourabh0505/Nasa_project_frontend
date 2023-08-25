@@ -1,4 +1,4 @@
-const API = 'http://localhost:8000'
+const API = 'https://nasa-project-136z.onrender.com'
 async function httpGetPlanets() {
   const response = await fetch(`${API}/planets`);
   return response.json();
